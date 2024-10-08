@@ -1,43 +1,59 @@
-# Begone — French numbers blocklist
+# Begone — Liste de blocage — France
+
+## Prérequis
+
+Avant de commencer, assurez-vous d'avoir installé l'application
+[Begone][begone] sur votre iPhone. Une fois l'application installée, lancez-la
+et suivez les instructions pour l'activer comme application de blocage d'appels
+sur iOS.
 
 ## Installation
 
-Open this page on your iPhone and follow the instructions below:
+Ouvrez cette page sur votre iPhone et suivez les instructions ci-dessous :
 
 > [!IMPORTANT]
 > [**fr-all.xml**](https://raw.githubusercontent.com/danroc/begone-fr-list/refs/heads/main/dist/fr-all.xml)
 
-1. Touch and hold the `fr-all.xml` link above and select **Download Linked File**.
+1. Installez l'application [Begone](https://apps.apple.com/fr/app/id1596818195)
+   sur votre iPhone.
 
-2. Open the Begone app and select **Import New Numbers**.
+2. Appouyez et maintenez le lien `fr-all.xml` ci-dessus et sélectionnez
+   **Télécharger le fichier lié**.
 
-3. Select **Files**.
+3. Ouvrez l'application Begone et sélectionnez **Importer de nouveaux
+   numéros**.
 
-4. Import the `fr-all.xml` file you just downloaded.
+4. Sélectionnez **Fichiers**.
 
-## Contributing
+5. Importez le fichier `fr-all.xml` que vous venez de télécharger.
 
-### Set up the development environment
+## Contribution
 
-1. Create a new Python virtual environment.
+### Configurer l'environnement de développement
+
+1. Créez un nouvel environnement virtuel Python.
 
    ```bash
     python3 -m venv venv
     ```
 
-2. Activate the virtual environment.
+2. Activez l'environnement virtuel.
 
     ```bash
      source venv/bin/activate
      ```
 
-3. Install the required dependencies.
+3. Installez les dépendances nécessaires.
 
     ```bash
     pip install -r requirements.txt
     ```
 
-### Add new numbers to the blocklist
+### Ajouter de nouveaux numéros à la liste de blocage
 
-1. Update the `data/numbers.yaml` file with the new numbers you want to block.
-2. Run `make` to generate the new `dist/fr-all.xml` file.
+1. Mettez à jour le fichier `data/numbers.yaml` avec les nouveaux numéros que
+   vous souhaitez bloquer.
+
+2. Exécutez `make` pour générer le nouveau fichier `dist/fr-all.xml`.
+
+[begone]: https://apps.apple.com/fr/app/id1596818195
