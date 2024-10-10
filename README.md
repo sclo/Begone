@@ -1,4 +1,4 @@
-# Begone — Liste de blocage — France
+# Begone — Listes de blocage :fr:
 
 ## Prérequis
 
@@ -9,23 +9,22 @@ sur iOS.
 
 ## Installation
 
-Ouvrez cette page sur votre iPhone et suivez les instructions ci-dessous :
+Ouvrez [cette page](#installation) sur votre iPhone et suivez les instructions
+ci-dessous :
 
-> [!IMPORTANT]
-> [**fr-all.xml**](https://raw.githubusercontent.com/danroc/begone-fr-list/refs/heads/main/dist/fr-all.xml)
+|            Lien            | Description    |
+| :------------------------: | :------------- |
+| [**fr-all.xml**][list-all] | Liste complète |
 
-1. Installez l'application [Begone](https://apps.apple.com/fr/app/id1596818195)
-   sur votre iPhone.
-
-2. Appouyez et maintenez le lien `fr-all.xml` ci-dessus et sélectionnez
+1. Appouyez et maintenez le lien `fr-all.xml` ci-dessus et sélectionnez
    **Télécharger le fichier lié**.
 
-3. Ouvrez l'application Begone et sélectionnez **Importer de nouveaux
+2. Ouvrez l'application Begone et sélectionnez **Importer de nouveaux
    numéros**.
 
-4. Sélectionnez **Fichiers**.
+3. Sélectionnez **Fichiers**.
 
-5. Importez le fichier `fr-all.xml` que vous venez de télécharger.
+4. Importez le fichier que vous venez de télécharger.
 
 ## Contribution
 
@@ -35,19 +34,19 @@ Ouvrez cette page sur votre iPhone et suivez les instructions ci-dessous :
 
    ```bash
     python3 -m venv venv
-    ```
+   ```
 
 2. Activez l'environnement virtuel.
 
-    ```bash
-     source venv/bin/activate
-     ```
+   ```bash
+    source venv/bin/activate
+   ```
 
 3. Installez les dépendances nécessaires.
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ### Ajouter de nouveaux numéros à la liste de blocage
 
@@ -57,3 +56,4 @@ Ouvrez cette page sur votre iPhone et suivez les instructions ci-dessous :
 2. Exécutez `make` pour générer le nouveau fichier `dist/fr-all.xml`.
 
 [begone]: https://apps.apple.com/fr/app/id1596818195
+[list-all]: https://raw.githubusercontent.com/danroc/begone-fr-list/refs/heads/main/dist/fr-all.xml
