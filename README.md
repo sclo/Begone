@@ -12,7 +12,7 @@ blocage d'appels sur iOS.
 Ouvrez [cette page](#installation) sur votre iPhone et suivez les instructions
 ci-dessous :
 
-1. Appuyez et maintenez le lien de la liste souhaitée ci-dessous et
+1. Appuyez longuement sur le lien de la liste souhaitée ci-dessous et
    sélectionnez **Télécharger le fichier lié**.
 
    - [Liste complète][list-all]
