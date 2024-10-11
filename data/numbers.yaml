@@ -1,6 +1,8 @@
 ---
 # Source: https://www.arcep.fr/uploads/tx_gsavis/22-1583.pdf
 - title: Démarchage
+  tags:
+    - spam
   numbers:
     - '+33 1 62 ## ## ##'
     - '+33 1 63 ## ## ##'
@@ -17,6 +19,9 @@
 
 # Source https://www.arcep.fr/uploads/tx_gsavis/23-0690.pdf
 - title: OnOff (VOIP)
+  tags:
+    - voip
+    - onoff
   numbers:
     - '+33 6 44 66 ## ##'
     - '+33 6 44 67 ## ##'
@@ -27,6 +32,9 @@
 
 # Source: https://www.arcep.fr/uploads/tx_gsavis/24-1486.pdf
 - title: Ubicentrex (VOIP)
+  tags:
+    - voip
+    - ubicentrex
   numbers:
     - '+33 1 89 86 ## ##'
     - '+33 2 58 58 0# ##'

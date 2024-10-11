@@ -1,4 +1,5 @@
 import plistlib
+from typing import Annotated
 
 import typer
 import yaml
@@ -6,23 +7,45 @@ import yaml
 app = typer.Typer()
 
 
-def main(input_file: str, output_file: str) -> None:
+TagGroups = dict[str, list[dict[str, str]]]
+
+ALL_GROUP_TAG = "all"
+
+
+def load_numbers(input_file: str) -> TagGroups:
     with open(input_file) as f:
         entries = yaml.safe_load(f)
 
-    plist = []
+    groups: TagGroups = {}
     for entry in entries:
-        for number in entry['numbers']:
-            plist.append({
-                'title': entry['title'],
-                'addNational': 'true',
-                'category': '0',
-                'number': number.replace(' ', ''),
+        group = []
+        for number in entry["numbers"]:
+            group.append({
+                "title": entry["title"],
+                "addNational": "true",
+                "category": "0",
+                "number": number.replace(" ", ""),
             })
 
-    with open(output_file, 'wb') as f:
-        plistlib.dump(plist, f)
+        for tag in entry.get("tags", []):
+            if tag == ALL_GROUP_TAG:
+                continue
+            groups.setdefault(tag, []).extend(group)
+        groups.setdefault(ALL_GROUP_TAG, []).extend(group)
+
+    return groups
 
 
-if __name__ == '__main__':
+def main(
+    input_file: Annotated[str, typer.Argument(help="Input YAML numbers file")],
+    output_file: Annotated[str, typer.Argument(help="Output Begone XML file")],
+    tags: Annotated[list[str], typer.Argument(help="Tags to include")],
+) -> None:
+    groups = load_numbers(input_file)
+    entries = [entry for tag in tags for entry in groups.get(tag, [])]
+    with open(output_file, "wb") as f:
+        plistlib.dump(entries, f)
+
+
+if __name__ == "__main__":
     typer.run(main)

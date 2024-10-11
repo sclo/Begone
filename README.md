@@ -3,21 +3,22 @@
 ## Prérequis
 
 Avant de commencer, assurez-vous d'avoir installé l'application
-[Begone][begone] sur votre iPhone. Une fois l'application installée, lancez-la
-et suivez les instructions pour l'activer comme application de blocage d'appels
-sur iOS.
+[Begone][begone-app] sur votre iPhone. Une fois l'application installée,
+lancez-la et suivez les instructions pour l'activer comme application de
+blocage d'appels sur iOS.
 
 ## Installation
 
 Ouvrez [cette page](#installation) sur votre iPhone et suivez les instructions
 ci-dessous :
 
-|            Lien            | Description    |
-| :------------------------: | :------------- |
-| [**fr-all.xml**][list-all] | Liste complète |
+1. Appouyez et maintenez le lien de la liste souhaitée ci-dessous et
+   sélectionnez **Télécharger le fichier lié**.
 
-1. Appouyez et maintenez le lien `fr-all.xml` ci-dessus et sélectionnez
-   **Télécharger le fichier lié**.
+   - [Liste complète][list-all]
+   - [Numéros VOIP][list-voip]
+     - [Numéros OnOff][list-onoff]
+     - [Numéros Ubicentrex][list-ubicentrex]
 
 2. Ouvrez l'application Begone et sélectionnez **Importer de nouveaux
    numéros**.
@@ -55,5 +56,8 @@ ci-dessous :
 
 2. Exécutez `make` pour générer le nouveau fichier `dist/fr-all.xml`.
 
-[begone]: https://apps.apple.com/fr/app/id1596818195
-[list-all]: https://raw.githubusercontent.com/danroc/begone-fr-list/refs/heads/main/dist/fr-all.xml
+[begone-app]: https://apps.apple.com/fr/app/id1596818195
+[list-all]: https://raw.githubusercontent.com/danroc/begone-fr-list/refs/heads/main/dist/begone-fr-tout.xml
+[list-voip]: https://raw.githubusercontent.com/danroc/begone-fr-list/refs/heads/main/dist/begone-fr-voip.xml
+[list-onoff]: https://raw.githubusercontent.com/danroc/begone-fr-list/refs/heads/main/dist/begone-fr-onoff.xml
+[list-ubicentrex]: https://raw.githubusercontent.com/danroc/begone-fr-list/refs/heads/main/dist/begone-fr-ubicentrex.xml
