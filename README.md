@@ -16,6 +16,7 @@ ci-dessous :
    sélectionnez **Télécharger le fichier lié**.
 
    - [Liste complète][list-all]
+   - [Numéros de démarchage][list-spam]
    - [Numéros VOIP][list-voip]
      - [Numéros OnOff][list-onoff]
      - [Numéros Ubicentrex][list-ubicentrex]
@@ -58,6 +59,7 @@ ci-dessous :
 
 [begone-app]: https://apps.apple.com/fr/app/id1596818195
 [list-all]: https://raw.githubusercontent.com/danroc/begone-fr-list/refs/heads/main/dist/begone-fr-tout.xml
+[list-spam]: https://raw.githubusercontent.com/danroc/begone-fr-list/refs/heads/main/dist/begone-fr-demarchage.xml
 [list-voip]: https://raw.githubusercontent.com/danroc/begone-fr-list/refs/heads/main/dist/begone-fr-voip.xml
 [list-onoff]: https://raw.githubusercontent.com/danroc/begone-fr-list/refs/heads/main/dist/begone-fr-onoff.xml
 [list-ubicentrex]: https://raw.githubusercontent.com/danroc/begone-fr-list/refs/heads/main/dist/begone-fr-ubicentrex.xml
