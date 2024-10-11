@@ -4,7 +4,7 @@
 
 Avant de commencer, assurez-vous d'avoir installé l'application
 [Begone][begone-app] sur votre iPhone. Une fois l'application installée,
-lancez-la et suivez les instructions pour l'activer comme application de
+lancez-la et suivez les instructions pour l'activer en tant qu'application de
 blocage d'appels sur iOS.
 
 ## Installation
@@ -12,7 +12,7 @@ blocage d'appels sur iOS.
 Ouvrez [cette page](#installation) sur votre iPhone et suivez les instructions
 ci-dessous :
 
-1. Appouyez et maintenez le lien de la liste souhaitée ci-dessous et
+1. Appuyez et maintenez le lien de la liste souhaitée ci-dessous et
    sélectionnez **Télécharger le fichier lié**.
 
    - [Liste complète][list-all]
@@ -54,7 +54,7 @@ ci-dessous :
 1. Mettez à jour le fichier `data/numbers.yaml` avec les nouveaux numéros que
    vous souhaitez bloquer.
 
-2. Exécutez `make` pour générer le nouveau fichier `dist/fr-all.xml`.
+2. Exécutez `make` pour générer les nouvelles listes dans le dossier `dist`.
 
 [begone-app]: https://apps.apple.com/fr/app/id1596818195
 [list-all]: https://raw.githubusercontent.com/danroc/begone-fr-list/refs/heads/main/dist/begone-fr-tout.xml
