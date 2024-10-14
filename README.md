@@ -1,4 +1,7 @@
-# Begone — Listes de blocage :fr:
+# Begone: Liste de Blocage :fr:
+
+Ce repo contient des listes de blocage de numéros indésirables pour la France,
+à utiliser avec l'application [Begone][begone-app] sur iOS.
 
 ## Prérequis
 
