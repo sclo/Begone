@@ -10,7 +10,9 @@ TagGroups = dict[str, list[dict[str, str]]]
 
 ALL_GROUP_TAG = "all"
 
-CATEGORY_BLOCK = "0"
+CATEGORY_BLOCKED = "0"
+CATEGORY_ALLOWED = "1"
+CATEGORY_DIRECTORY = "2"
 
 
 def sanitize_number(number: str) -> str:
@@ -28,7 +30,7 @@ def load_numbers(input_file: str) -> TagGroups:
             group.append({
                 "title": entry["title"],
                 "addNational": "true",
-                "category": CATEGORY_BLOCK,
+                "category": CATEGORY_BLOCKED,
                 "number": sanitize_number(number),
             })
 
