@@ -38,19 +38,19 @@ ci-dessous :
 1. Créez un nouvel environnement virtuel Python.
 
    ```bash
-    python3 -m venv venv
+   uv venv
    ```
 
 2. Activez l'environnement virtuel.
 
    ```bash
-    source venv/bin/activate
+   source .venv/bin/activate
    ```
 
 3. Installez les dépendances nécessaires.
 
    ```bash
-   pip install -r requirements.txt
+   uv sync
    ```
 
 ### Ajouter de nouveaux numéros à la liste de blocage
