@@ -1,4 +1,5 @@
 import plistlib
+import re
 from typing import Annotated
 
 import typer
@@ -16,7 +17,7 @@ CATEGORY_DIRECTORY = "2"
 
 
 def sanitize_number(number: str) -> str:
-    return number.replace(" ", "").replace("-", "").replace(".", "")
+    return re.sub(r"[^+0-9#]", "", number)
 
 
 def load_numbers(input_file: str) -> TagGroups:
