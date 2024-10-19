@@ -47,13 +47,12 @@ def main(
     tags: Annotated[list[str], typer.Argument(help="Tags to include")],
 ) -> None:
     groups = load_numbers(input_file)
-
-    entries = []
+    output = []
     for tag in tags:
-        entries.extend(groups.get(tag, []))
+        output.extend(groups.get(tag, []))
 
     with open(output_file, "wb") as f:
-        plistlib.dump(entries, f)
+        plistlib.dump(output, f)
 
 
 if __name__ == "__main__":
