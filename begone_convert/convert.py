@@ -6,16 +6,15 @@ import yaml
 
 app = typer.Typer()
 
+TagGroups = dict[str, list[dict[str, str]]]
+
+ALL_GROUP_TAG = "all"
+
 CATEGORY_BLOCK = "0"
 
 
 def sanitize_number(number: str) -> str:
     return number.replace(" ", "").replace("-", "").replace(".", "")
-
-
-TagGroups = dict[str, list[dict[str, str]]]
-
-ALL_GROUP_TAG = "all"
 
 
 def load_numbers(input_file: str) -> TagGroups:
