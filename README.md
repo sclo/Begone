@@ -35,22 +35,19 @@ ci-dessous :
 
 ### Configurer l'environnement de développement
 
-1. Créez un nouvel environnement virtuel Python.
+1. Créez un nouvel environnement virtuel Python et installez les dépendances
+   nécessaires.
 
    ```bash
    uv venv
+   uv sync
+   # or run 'make init'
    ```
 
 2. Activez l'environnement virtuel.
 
    ```bash
    source .venv/bin/activate
-   ```
-
-3. Installez les dépendances nécessaires.
-
-   ```bash
-   uv sync
    ```
 
 ### Ajouter de nouveaux numéros à la liste de blocage
