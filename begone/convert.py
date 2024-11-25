@@ -58,5 +58,9 @@ def main(
         plistlib.dump(output, f)
 
 
-if __name__ == "__main__":
+def run() -> None:
     typer.run(main)
+
+
+if __name__ == "__main__":
+    run()
