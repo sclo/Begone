@@ -41,7 +41,7 @@ ci-dessous :
    ```bash
    uv venv
    uv sync
-   # or run 'make init'
+   # ou exécutez 'make init'
    ```
 
 2. Activez l'environnement virtuel.
