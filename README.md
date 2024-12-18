@@ -18,11 +18,11 @@ ci-dessous :
 1. Appuyez longuement sur le lien de la liste souhaitée ci-dessous et
    sélectionnez **Télécharger le fichier lié**.
 
-   - [Liste complète][list-all]
-   - [Numéros de démarchage][list-spam]
+   - [Numéros de démarchage][list-spam] (recommandée)
    - [Numéros VOIP][list-voip]
      - [Numéros OnOff][list-onoff]
      - [Numéros Ubicentrex][list-ubicentrex]
+   - [Liste complète][list-all]
 
 2. Ouvrez l'application Begone et sélectionnez **Importer de nouveaux
    numéros**.
