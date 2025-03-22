@@ -28,16 +28,6 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
-		<string>+3316253####</string>
-		<key>title</key>
-		<string>BJT Partners</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
 		<string>+3317650####</string>
 		<key>title</key>
 		<string>BJT Partners</string>
@@ -498,16 +488,6 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
-		<string>+3327046####</string>
-		<key>title</key>
-		<string>BJT Partners</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
 		<string>+33279550###</string>
 		<key>title</key>
 		<string>BJT Partners</string>
@@ -828,16 +808,6 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
-		<string>+3337745####</string>
-		<key>title</key>
-		<string>BJT Partners</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
 		<string>+33379620###</string>
 		<key>title</key>
 		<string>BJT Partners</string>
@@ -1069,16 +1039,6 @@
 		<string>0</string>
 		<key>number</key>
 		<string>+33423434###</string>
-		<key>title</key>
-		<string>BJT Partners</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
-		<string>+3342446####</string>
 		<key>title</key>
 		<string>BJT Partners</string>
 	</dict>
@@ -1728,16 +1688,6 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
-		<string>+3356847####</string>
-		<key>title</key>
-		<string>BJT Partners</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
 		<string>+3359069####</string>
 		<key>title</key>
 		<string>BJT Partners</string>
@@ -2288,16 +2238,6 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
-		<string>+3394846####</string>
-		<key>title</key>
-		<string>BJT Partners</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
 		<string>+3397070####</string>
 		<key>title</key>
 		<string>BJT Partners</string>
@@ -2329,26 +2269,6 @@
 		<string>0</string>
 		<key>number</key>
 		<string>+3398080####</string>
-		<key>title</key>
-		<string>BJT Partners</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
-		<string>3277</string>
-		<key>title</key>
-		<string>BJT Partners</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
-		<string>3644</string>
 		<key>title</key>
 		<string>BJT Partners</string>
 	</dict>

@@ -8,26 +8,6 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
-		<string>+33162104###</string>
-		<key>title</key>
-		<string>Ubicentrex</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
-		<string>+33162262###</string>
-		<key>title</key>
-		<string>Ubicentrex</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
 		<string>+3318831####</string>
 		<key>title</key>
 		<string>Ubicentrex</string>
@@ -138,16 +118,6 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
-		<string>+33270479###</string>
-		<key>title</key>
-		<string>Ubicentrex</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
 		<string>+3336747####</string>
 		<key>title</key>
 		<string>Ubicentrex</string>
@@ -179,16 +149,6 @@
 		<string>0</string>
 		<key>number</key>
 		<string>+33376449###</string>
-		<key>title</key>
-		<string>Ubicentrex</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
-		<string>+33377255###</string>
 		<key>title</key>
 		<string>Ubicentrex</string>
 	</dict>
@@ -279,16 +239,6 @@
 		<string>0</string>
 		<key>number</key>
 		<string>+3342310####</string>
-		<key>title</key>
-		<string>Ubicentrex</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
-		<string>+33424434###</string>
 		<key>title</key>
 		<string>Ubicentrex</string>
 	</dict>
@@ -398,27 +348,7 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
-		<string>+33568489###</string>
-		<key>title</key>
-		<string>Ubicentrex</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
 		<string>+3359441####</string>
-		<key>title</key>
-		<string>Ubicentrex</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
-		<string>+33948359###</string>
 		<key>title</key>
 		<string>Ubicentrex</string>
 	</dict>
