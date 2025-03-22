@@ -60,8 +60,15 @@ below:
 
 2. Run `make` to generate the new lists in the `dist` folder.
 
+### Release a new version
+
+Whenever you update the files in the `dist/` directory, increment the `begone.version` file as follows:
+
+1. Version: Increment the number on the first line for structural changes or modifications to the operator data source.
+2. Build Number: Always increment the number on the second line with every update.
+
 [begone-app]: https://apps.apple.com/fr/app/id1596818195
-[list-all]: https://raw.githubusercontent.com/Fluyd-Cloud/Begone/refs/heads/main/dist/begone-fr-tout.xml
+[list-all]: https://raw.githubusercontent.com/Fluyd-Cloud/Begone/refs/heads/main/dist/begone-fr-full.xml
 [list-spam]: https://raw.githubusercontent.com/Fluyd-Cloud/Begone/refs/heads/main/dist/begone-fr-demarchage.xml
 [list-voip]: https://raw.githubusercontent.com/Fluyd-Cloud/Begone/refs/heads/main/dist/begone-fr-voip.xml
 [list-onoff]: https://raw.githubusercontent.com/Fluyd-Cloud/Begone/refs/heads/main/dist/begone-fr-onoff.xml

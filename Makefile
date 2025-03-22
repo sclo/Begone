@@ -1,7 +1,7 @@
 .PHONY: build init
 
 build:
-	begone-convert data/numbers.yaml dist/begone-fr-tout.xml all
+	begone-convert data/numbers.yaml dist/begone-fr-full.xml all
 	begone-convert data/numbers.yaml dist/begone-fr-demarchage.xml spam
 	begone-convert data/numbers.yaml dist/begone-fr-voip.xml voip
 	begone-convert data/numbers.yaml dist/begone-fr-prepaid.xml prepaid
