@@ -17,50 +17,44 @@
     - '+33 9 48 ## ## ##'
     - '+33 9 49 ## ## ##'
 
-# Source https://www.arcep.fr/uploads/tx_gsavis/23-0690.pdf
-- title: OnOff (VOIP)
+- title: OnOff
   tags:
     - voip
     - onoff
-  numbers:
-    - '+33 6 44 66 ## ##'
-    - '+33 6 44 67 ## ##'
-    - '+33 6 44 68 ## ##'
-    - '+33 6 44 69 ## ##'
-    - '+33 7 56 8# ## ##'
-    - '+33 7 56 9# ## ##'
+  asn:
+    - 'ONOF'
 
-# Source: https://www.arcep.fr/uploads/tx_gsavis/24-1486.pdf
-- title: Ubicentrex (VOIP)
+- title: Ubicentrex
   tags:
     - voip
     - ubicentrex
-  numbers:
-    - '+33 1 89 86 ## ##'
-    - '+33 2 58 58 0# ##'
-    - '+33 2 58 58 1# ##'
-    - '+33 2 58 58 2# ##'
-    - '+33 2 58 58 3# ##'
-    - '+33 2 58 58 4# ##'
-    - '+33 2 58 58 5# ##'
-    - '+33 2 58 58 9# ##'
-    - '+33 3 76 44 0# ##'
-    - '+33 3 76 44 1# ##'
-    - '+33 3 76 44 9# ##'
-    - '+33 4 12 37 0# ##'
-    - '+33 4 12 37 1# ##'
-    - '+33 4 12 37 2# ##'
-    - '+33 4 12 37 3# ##'
-    - '+33 4 12 37 4# ##'
-    - '+33 4 12 37 7# ##'
-    - '+33 4 12 37 8# ##'
-    - '+33 4 12 37 9# ##'
-    - '+33 4 49 45 0# ##'
-    - '+33 4 49 45 9# ##'
-    - '+33 4 51 61 0# ##'
-    - '+33 4 51 61 9# ##'
-    - '+33 5 25 61 0# ##'
-    - '+33 5 25 61 1# ##'
-    - '+33 5 25 61 2# ##'
-    - '+33 5 25 61 5# ##'
-    - '+33 5 25 61 9# ##'
+  asn:
+    - 'UBIC'
+
+- title: Lyca
+  tags:
+    - prepaid
+    - lyca
+  asn:
+    - LYCA
+
+- title: Aircall
+  tags:
+    - voip
+    - aircall
+  asn:
+    - AIRC
+
+- title: BJT Partners
+  tags:
+    - voip
+    - bjt
+  asn:
+    - BJTP
+
+- title: Kavkom
+  tags:
+    - voip
+    - kavkom
+  asn:
+    - KAVE

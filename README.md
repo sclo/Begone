@@ -1,65 +1,73 @@
-# Begone: Liste de Blocage :fr:
+# Begone: Blocking List :fr:
 
-Ce repo contient des listes de blocage de numéros indésirables pour la France,
-à utiliser avec l'application [Begone][begone-app] sur iOS.
+This repository contains blocking lists of unwanted numbers for France,
+to be used with the [Begone][begone-app] application on iOS.
 
-## Prérequis
+## Prerequisites
 
-Avant de commencer, assurez-vous d'avoir installé l'application
-[Begone][begone-app] sur votre iPhone. Une fois l'application installée,
-lancez-la et suivez les instructions pour l'activer en tant qu'application de
-blocage d'appels sur iOS.
+Before you begin, ensure you have installed the [Begone][begone-app]
+application on your iPhone. Once the application is installed, launch it
+and follow the instructions to activate it as a call blocking application
+on iOS.
 
 ## Installation
 
-Ouvrez [cette page](#installation) sur votre iPhone et suivez les instructions
-ci-dessous :
+Open [this page](#installation) on your iPhone and follow the instructions
+below:
 
-1. Appuyez longuement sur le lien de la liste souhaitée ci-dessous et
-   sélectionnez **Télécharger le fichier lié**.
+1. Long press on the link of the desired list below and select
+   **Download Linked File**.
 
-   - [Numéros de démarchage][list-spam] (recommandée)
-   - [Numéros VOIP][list-voip]
-     - [Numéros OnOff][list-onoff]
-     - [Numéros Ubicentrex][list-ubicentrex]
-   - [Liste complète][list-all]
+   - [Spam Numbers][list-spam] (recommended)
+   - [VOIP Numbers][list-voip]
+      - [OnOff Numbers][list-onoff]
+      - [Ubicentrex Numbers][list-ubicentrex]
+      - [Aircall Numbers][list-aircall]
+      - [BJT Partners Numbers][list-bjt]
+      - [Kavkom Numbers][list-kavkom]
+   - [Prepaid Numbers][list-prepaid]
+     - [Lyca Numbers][list-lyca]
+   - [Complete List][list-all]
 
-2. Ouvrez l'application Begone et sélectionnez **Importer de nouveaux
-   numéros**.
+2. Open the Begone application and select **Import New Numbers**.
 
-3. Sélectionnez **Fichiers**.
+3. Select **Files**.
 
-4. Importez le fichier que vous venez de télécharger.
+4. Import the file you just downloaded.
 
 ## Contribution
 
-### Configurer l'environnement de développement
+### Setting Up the Development Environment
 
-1. Créez un nouvel environnement virtuel Python et installez les dépendances
-   nécessaires.
+1. Create a new Python virtual environment and install the necessary
+   dependencies.
 
    ```bash
    uv venv
    uv sync
-   # ou exécutez 'make init'
+   # or run 'make init'
    ```
 
-2. Activez l'environnement virtuel.
+2. Activate the virtual environment.
 
    ```bash
    source .venv/bin/activate
    ```
 
-### Ajouter de nouveaux numéros à la liste de blocage
+### Adding New Numbers to the Blocking List
 
-1. Mettez à jour le fichier `data/numbers.yaml` avec les nouveaux numéros que
-   vous souhaitez bloquer.
+1. Update the `data/numbers.yaml` file with the new numbers you wish to block.
 
-2. Exécutez `make` pour générer les nouvelles listes dans le dossier `dist`.
+2. Run `make` to generate the new lists in the `dist` folder.
 
 [begone-app]: https://apps.apple.com/fr/app/id1596818195
-[list-all]: https://raw.githubusercontent.com/danroc/begone-fr-list/refs/heads/main/dist/begone-fr-tout.xml
-[list-spam]: https://raw.githubusercontent.com/danroc/begone-fr-list/refs/heads/main/dist/begone-fr-demarchage.xml
-[list-voip]: https://raw.githubusercontent.com/danroc/begone-fr-list/refs/heads/main/dist/begone-fr-voip.xml
-[list-onoff]: https://raw.githubusercontent.com/danroc/begone-fr-list/refs/heads/main/dist/begone-fr-onoff.xml
-[list-ubicentrex]: https://raw.githubusercontent.com/danroc/begone-fr-list/refs/heads/main/dist/begone-fr-ubicentrex.xml
+[list-all]: https://raw.githubusercontent.com/Fluyd-Cloud/Begone/refs/heads/main/dist/begone-fr-tout.xml
+[list-spam]: https://raw.githubusercontent.com/Fluyd-Cloud/Begone/refs/heads/main/dist/begone-fr-demarchage.xml
+[list-voip]: https://raw.githubusercontent.com/Fluyd-Cloud/Begone/refs/heads/main/dist/begone-fr-voip.xml
+[list-onoff]: https://raw.githubusercontent.com/Fluyd-Cloud/Begone/refs/heads/main/dist/begone-fr-onoff.xml
+[list-ubicentrex]: https://raw.githubusercontent.com/Fluyd-Cloud/Begone/refs/heads/main/dist/begone-fr-ubicentrex.xml
+[list-aircall]: https://raw.githubusercontent.com/Fluyd-Cloud/Begone/refs/heads/main/dist/begone-fr-aircall.xml
+[list-bjt]: https://raw.githubusercontent.com/Fluyd-Cloud/Begone/refs/heads/main/dist/begone-fr-bjt.xml
+[list-kavkom]: https://raw.githubusercontent.com/Fluyd-Cloud/Begone/refs/heads/main/dist/begone-fr-kavcom.xml
+[list-prepaid]: https://raw.githubusercontent.com/Fluyd-Cloud/Begone/refs/heads/main/dist/begone-fr-prepaid.xml
+[list-lyca]: https://raw.githubusercontent.com/Fluyd-Cloud/Begone/refs/heads/main/dist/begone-fr-lyca.xml
