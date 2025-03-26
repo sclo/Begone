@@ -58,3 +58,10 @@
     - kavkom
   asn:
     - KAVE
+
+- title: Destiny
+  tags:
+    - voip
+    - destiny
+  asn:
+    - OPEN

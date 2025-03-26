@@ -11,6 +11,7 @@ build:
 	begone-convert data/numbers.yaml dist/begone-fr-aircall.xml aircall
 	begone-convert data/numbers.yaml dist/begone-fr-bjt.xml bjt
 	begone-convert data/numbers.yaml dist/begone-fr-kavcom.xml kavcom
+	begone-convert data/numbers.yaml dist/begone-fr-destiny.xml destiny
 
 init:
 	uv venv
