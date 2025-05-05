@@ -58,3 +58,10 @@
     - destiny
   asn:
     - OPEN
+
+- title: Spartel
+  tags:
+    - voip
+    - spartel
+  asn:
+    - SPAR

@@ -378,16 +378,6 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
-		<string>+3322189####</string>
-		<key>title</key>
-		<string>Destiny</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
 		<string>+33221990###</string>
 		<key>title</key>
 		<string>Destiny</string>
@@ -1519,16 +1509,6 @@
 		<string>0</string>
 		<key>number</key>
 		<string>+3337603####</string>
-		<key>title</key>
-		<string>Destiny</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
-		<string>+3337623####</string>
 		<key>title</key>
 		<string>Destiny</string>
 	</dict>
@@ -2858,16 +2838,6 @@
 		<key>category</key>
 		<string>0</string>
 		<key>number</key>
-		<string>+3359492####</string>
-		<key>title</key>
-		<string>Destiny</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
 		<string>+3359649####</string>
 		<key>title</key>
 		<string>Destiny</string>
@@ -3069,66 +3039,6 @@
 		<string>0</string>
 		<key>number</key>
 		<string>+3382518####</string>
-		<key>title</key>
-		<string>Destiny</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
-		<string>+3393931####</string>
-		<key>title</key>
-		<string>Destiny</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
-		<string>+3393952####</string>
-		<key>title</key>
-		<string>Destiny</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
-		<string>+3393962####</string>
-		<key>title</key>
-		<string>Destiny</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
-		<string>+3393972####</string>
-		<key>title</key>
-		<string>Destiny</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
-		<string>+3393981####</string>
-		<key>title</key>
-		<string>Destiny</string>
-	</dict>
-	<dict>
-		<key>addNational</key>
-		<string>true</string>
-		<key>category</key>
-		<string>0</string>
-		<key>number</key>
-		<string>+3393993####</string>
 		<key>title</key>
 		<string>Destiny</string>
 	</dict>
