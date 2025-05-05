@@ -22,7 +22,6 @@ below:
    - [VOIP Numbers][list-voip]
       - [OnOff Numbers][list-onoff]
       - [Ubicentrex Numbers][list-ubicentrex]
-      - [Aircall Numbers][list-aircall]
       - [BJT Partners Numbers][list-bjt]
       - [Kavkom Numbers][list-kavkom]
    - [Prepaid Numbers][list-prepaid]
@@ -73,7 +72,6 @@ Whenever you update the files in the `dist/` directory, increment the `begone.ve
 [list-voip]: https://raw.githubusercontent.com/Fluyd-Cloud/Begone/refs/heads/main/dist/begone-fr-voip.xml
 [list-onoff]: https://raw.githubusercontent.com/Fluyd-Cloud/Begone/refs/heads/main/dist/begone-fr-onoff.xml
 [list-ubicentrex]: https://raw.githubusercontent.com/Fluyd-Cloud/Begone/refs/heads/main/dist/begone-fr-ubicentrex.xml
-[list-aircall]: https://raw.githubusercontent.com/Fluyd-Cloud/Begone/refs/heads/main/dist/begone-fr-aircall.xml
 [list-bjt]: https://raw.githubusercontent.com/Fluyd-Cloud/Begone/refs/heads/main/dist/begone-fr-bjt.xml
 [list-kavkom]: https://raw.githubusercontent.com/Fluyd-Cloud/Begone/refs/heads/main/dist/begone-fr-kavcom.xml
 [list-prepaid]: https://raw.githubusercontent.com/Fluyd-Cloud/Begone/refs/heads/main/dist/begone-fr-prepaid.xml

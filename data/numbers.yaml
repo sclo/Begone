@@ -38,13 +38,6 @@
   asn:
     - LYCA
 
-- title: Aircall
-  tags:
-    - voip
-    - aircall
-  asn:
-    - AIRC
-
 - title: BJT Partners
   tags:
     - voip
