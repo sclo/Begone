@@ -67,13 +67,15 @@ Whenever you update the files in the `dist/` directory, increment the `begone.ve
 2. Build Number: Always increment the number on the second line with every update.
 
 [begone-app]: https://apps.apple.com/fr/app/id1596818195
-[list-all]: https://raw.githubusercontent.com/Fluyd-Cloud/Begone/refs/heads/main/dist/begone-fr-full.xml
-[list-spam]: https://raw.githubusercontent.com/Fluyd-Cloud/Begone/refs/heads/main/dist/begone-fr-demarchage.xml
-[list-voip]: https://raw.githubusercontent.com/Fluyd-Cloud/Begone/refs/heads/main/dist/begone-fr-voip.xml
-[list-onoff]: https://raw.githubusercontent.com/Fluyd-Cloud/Begone/refs/heads/main/dist/begone-fr-onoff.xml
-[list-ubicentrex]: https://raw.githubusercontent.com/Fluyd-Cloud/Begone/refs/heads/main/dist/begone-fr-ubicentrex.xml
-[list-bjt]: https://raw.githubusercontent.com/Fluyd-Cloud/Begone/refs/heads/main/dist/begone-fr-bjt.xml
-[list-kavkom]: https://raw.githubusercontent.com/Fluyd-Cloud/Begone/refs/heads/main/dist/begone-fr-kavcom.xml
-[list-prepaid]: https://raw.githubusercontent.com/Fluyd-Cloud/Begone/refs/heads/main/dist/begone-fr-prepaid.xml
-[list-lyca]: https://raw.githubusercontent.com/Fluyd-Cloud/Begone/refs/heads/main/dist/begone-fr-lyca.xml
-[list-spartel]: https://raw.githubusercontent.com/Fluyd-Cloud/Begone/refs/heads/main/dist/begone-fr-spartel.xml
+[list-all]: https://raw.githubusercontent.com/sclo/Begone/refs/heads/main/dist/begone-fr-full.xml
+[list-prepaid]: https://raw.githubusercontent.com/sclo/Begone/refs/heads/main/dist/begone-fr-prepaid.xml
+[list-spam]: https://raw.githubusercontent.com/sclo/Begone/refs/heads/main/dist/begone-fr-spam.xml
+[list-voip]: https://raw.githubusercontent.com/sclo/Begone/refs/heads/main/dist/begone-fr-voip.xml
+[list-aircall]: https://raw.githubusercontent.com/sclo/Begone/refs/heads/main/dist/begone-fr-aircall.xml
+[list-bjt]: https://raw.githubusercontent.com/sclo/Begone/refs/heads/main/dist/begone-fr-bjt.xml
+[list-kavkom]: https://raw.githubusercontent.com/sclo/Begone/refs/heads/main/dist/begone-fr-kavcom.xml
+[list-lyca]: https://raw.githubusercontent.com/sclo/Begone/refs/heads/main/dist/begone-fr-lyca.xml
+[list-onoff]: https://raw.githubusercontent.com/sclo/Begone/refs/heads/main/dist/begone-fr-onoff.xml
+[list-oxilog]: https://raw.githubusercontent.com/sclo/Begone/refs/heads/main/dist/begone-fr-oxilog.xml
+[list-spartel]: https://raw.githubusercontent.com/sclo/Begone/refs/heads/main/dist/begone-fr-spartel.xml
+[list-ubicentrex]: https://raw.githubusercontent.com/sclo/Begone/refs/heads/main/dist/begone-fr-ubicentrex.xml
