@@ -6,6 +6,7 @@
     - metropolitan
     - france
     - métropolitaine
+    - custom
   numbers:
     - '+33 1 62 ## ## ##'
     - '+33 1 63 ## ## ##'
@@ -26,6 +27,7 @@
     - drom
     - départements et régions d'outre-mer
     - france
+    - custom
   numbers:
     - '+590 9 47 5# ## ##'
     - '+594 9 47 6# ## ##'
@@ -65,6 +67,7 @@
   tags:
     - voip
     - bjt
+    - custom
   asn:
     - BJTP
 
@@ -72,6 +75,7 @@
   tags:
     - voip
     - kavkom
+    - custom
   asn:
     - KAVE
 
@@ -93,5 +97,6 @@
   tags:
     - voip
     - oxilog
+    - custom
   asn:
     - OXIL

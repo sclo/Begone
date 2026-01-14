@@ -71,8 +71,10 @@ Whenever you update the files in the `dist/` directory, increment the `begone.ve
 [list-prepaid]: https://raw.githubusercontent.com/sclo/Begone/refs/heads/main/dist/begone-fr-prepaid.xml
 [list-spam]: https://raw.githubusercontent.com/sclo/Begone/refs/heads/main/dist/begone-fr-spam.xml
 [list-voip]: https://raw.githubusercontent.com/sclo/Begone/refs/heads/main/dist/begone-fr-voip.xml
+[list-custom]: https://raw.githubusercontent.com/sclo/Begone/refs/heads/main/dist/begone-fr-custom.xml
 [list-aircall]: https://raw.githubusercontent.com/sclo/Begone/refs/heads/main/dist/begone-fr-aircall.xml
 [list-bjt]: https://raw.githubusercontent.com/sclo/Begone/refs/heads/main/dist/begone-fr-bjt.xml
+[list-destiny]: https://raw.githubusercontent.com/sclo/Begone/refs/heads/main/dist/begone-fr-destiny.xml
 [list-kavkom]: https://raw.githubusercontent.com/sclo/Begone/refs/heads/main/dist/begone-fr-kavcom.xml
 [list-lyca]: https://raw.githubusercontent.com/sclo/Begone/refs/heads/main/dist/begone-fr-lyca.xml
 [list-onoff]: https://raw.githubusercontent.com/sclo/Begone/refs/heads/main/dist/begone-fr-onoff.xml
