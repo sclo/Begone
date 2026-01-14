@@ -9,7 +9,7 @@ build:
 	begone-convert data/numbers.yaml dist/begone-fr-aircall.xml aircall
 	begone-convert data/numbers.yaml dist/begone-fr-bjt.xml bjt
 	begone-convert data/numbers.yaml dist/begone-fr-destiny.xml destiny
-	begone-convert data/numbers.yaml dist/begone-fr-kavcom.xml kavcom
+	begone-convert data/numbers.yaml dist/begone-fr-kavkom.xml kavkom
 	begone-convert data/numbers.yaml dist/begone-fr-lyca.xml lyca
 	begone-convert data/numbers.yaml dist/begone-fr-spartel.xml spartel
 	begone-convert data/numbers.yaml dist/begone-fr-onoff.xml onoff

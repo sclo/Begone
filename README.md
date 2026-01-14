@@ -75,7 +75,7 @@ Whenever you update the files in the `dist/` directory, increment the `begone.ve
 [list-aircall]: https://raw.githubusercontent.com/sclo/Begone/refs/heads/main/dist/begone-fr-aircall.xml
 [list-bjt]: https://raw.githubusercontent.com/sclo/Begone/refs/heads/main/dist/begone-fr-bjt.xml
 [list-destiny]: https://raw.githubusercontent.com/sclo/Begone/refs/heads/main/dist/begone-fr-destiny.xml
-[list-kavkom]: https://raw.githubusercontent.com/sclo/Begone/refs/heads/main/dist/begone-fr-kavcom.xml
+[list-kavkom]: https://raw.githubusercontent.com/sclo/Begone/refs/heads/main/dist/begone-fr-kavkom.xml
 [list-lyca]: https://raw.githubusercontent.com/sclo/Begone/refs/heads/main/dist/begone-fr-lyca.xml
 [list-onoff]: https://raw.githubusercontent.com/sclo/Begone/refs/heads/main/dist/begone-fr-onoff.xml
 [list-oxilog]: https://raw.githubusercontent.com/sclo/Begone/refs/heads/main/dist/begone-fr-oxilog.xml
