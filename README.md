@@ -27,6 +27,7 @@ below:
    - [Prepaid Numbers][list-prepaid]
      - [Lyca Numbers][list-lyca]
    - [Complete List][list-all]
+   - [Custom List][list-custom]
 
 2. Open the Begone application and select **Import New Numbers**.
 
@@ -68,6 +69,7 @@ Whenever you update the files in the `dist/` directory, increment the `begone.ve
 
 [begone-app]: https://apps.apple.com/fr/app/id1596818195
 [list-all]: https://raw.githubusercontent.com/sclo/Begone/refs/heads/main/dist/begone-fr-full.xml
+[list-custom]: https://raw.githubusercontent.com/sclo/Begone/refs/heads/main/dist/begone-fr-custom.xml
 [list-prepaid]: https://raw.githubusercontent.com/sclo/Begone/refs/heads/main/dist/begone-fr-prepaid.xml
 [list-spam]: https://raw.githubusercontent.com/sclo/Begone/refs/heads/main/dist/begone-fr-spam.xml
 [list-voip]: https://raw.githubusercontent.com/sclo/Begone/refs/heads/main/dist/begone-fr-voip.xml
